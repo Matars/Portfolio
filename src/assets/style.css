@@ -1,0 +1,40 @@
+:root {
+    --bg-main: #25283D;
+    --bg-second: #1c1f34;
+    --text-main: #f3f3f3;
+    --border-color: #3b3d4a;
+}
+
+
+html{
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: var(--bg-second);
+}
+
+footer{
+    background-color: var(--bg-second);
+}
+
+template{
+    background-color: var(--bg-main);
+    color: var(--text-main);
+}
+
+a{
+    color: var(--text-main);
+}
+
+.button {
+    padding: 1em;
+    margin: 0.6em;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+  }
