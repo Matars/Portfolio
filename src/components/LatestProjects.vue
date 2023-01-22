@@ -5,6 +5,7 @@
       <div v-for="project in projects" :key="project.id" class="project-card">
         <h3 class="project-card-name">{{ project.name }}</h3>
         <p class="project-card-description">{{ project.description }}</p>
+        <router-link :to="`${project.path}`">View Project</router-link>
       </div>
     </div>
   </div>
@@ -17,23 +18,39 @@ export default {
       projects: [
         {
           id: 1,
-          name: "Project 1",
+          name: "Hotell Software",
           description: "A short description of the project",
+          path: "projects/Hotellview",
         },
         {
           id: 2,
-          name: "Project 2",
+          name: "Art Gallery",
           description: "A short description of the project",
+          path: "projects/ArtGalleryView",
         },
         {
           id: 3,
-          name: "Project 3",
+          name: "Processnig Sketches",
           description: "A short description of the project",
+          path: "projects/ProcessingSketchesView",
         },
         {
           id: 4,
-          name: "Project 4",
+          name: "AnimeCal extension",
           description: "A short description of the project",
+          path: "projects/AnimeCalView",
+        },
+        {
+          id: 5,
+          name: "Portfolio (this site)",
+          description: "A short description of the project",
+          path: "projects/PortfolioView",
+        },
+        {
+          id: 6,
+          name: "E-Commerce",
+          description: "A short description of the project",
+          path: "projects/ECommerceView",
         },
       ],
       selectedProject: null,
@@ -61,7 +78,7 @@ export default {
   background-color: var(--bg-second);
   border: 1px solid var(--border-color);
   border-radius: 5px;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .project-card:hover {
