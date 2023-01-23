@@ -52,6 +52,12 @@ export default {
           description: "A short description of the project",
           path: "projects/ECommerceView",
         },
+        {
+          id: 7,
+          name: "URL Shortener",
+          description: "A short description of the project",
+          path: "projects/URLShortenerView",
+        },
       ],
       selectedProject: null,
     };

@@ -3,10 +3,8 @@
     <h2>Let's work together</h2>
     <p>
       I'm available for part-time or freelance work, If you want to work
-      together on a project, please don't hesitate to contact me via<span
-        class="mail"
-        >km222uq@student.lnu.se</span
-      >
+      together on a project, please don't hesitate to contact me via email at
+      <span class="mail">km222uq@student.lnu.se</span>
     </p>
     <button class="button" @click="launchMail">Contact me</button>
   </div>

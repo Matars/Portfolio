@@ -40,7 +40,7 @@ export default {
         },
         {
           id: 2,
-          year: "2016 - 2019",
+          year: "2018 - 2021",
           title: "🏫 High school",
           description:
             "I learnt more about C++ and web development - graduated from engineering high school.",
@@ -50,7 +50,7 @@ export default {
         },
         {
           id: 3,
-          year: "2020 - Present",
+          year: "2021 - Present",
           title: "🎓 College",
           description:
             "I study Software Engineering at LNU and working as a TA on the side.",

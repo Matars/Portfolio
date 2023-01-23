@@ -58,6 +58,14 @@
           />
           ChatGPT
         </div>
+        <div class="tech-item typescript">
+          <img
+            src="../assets/typescript.jpeg"
+            alt="Typescript logo"
+            class="tech-logo"
+          />
+          TypeScript
+        </div>
       </div>
     </div>
   </div>

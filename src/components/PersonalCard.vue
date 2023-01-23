@@ -20,8 +20,9 @@
               href="https://github.com/matarkhaled"
               class="button github-button"
               >GitHub</a
-            >
-            <a href="#" class="button education-button">Education</a>
+            ><a class="button education-button">
+              <router-link to="/Education">Education</router-link>
+            </a>
           </div>
         </div>
       </div>
