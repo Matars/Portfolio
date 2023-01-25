@@ -30,7 +30,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/projects/ArtGallery",
-    name: "Art Gallery",
+    name: "ArtGallery",
     component: ArtGalleryView,
   },
   {
