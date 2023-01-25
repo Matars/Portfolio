@@ -1,6 +1,11 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import EducationView from "../views/EducationView.vue";
+import AnimeCalView from "../views/AnimeCalView.vue";
+import ProcessingSketchesView from "../views/ProcessingSketchesView.vue";
+import ArtGalleryView from "../views/ArtGalleryView.vue";
+import ClocksView from "../views/ClocksView.vue";
+import HotellView from "../views/HotellView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,6 +17,31 @@ const routes: Array<RouteRecordRaw> = [
     path: "/Education",
     name: "Education",
     component: EducationView,
+  },
+  {
+    path: "/projects/AnimeCal",
+    name: "AnimeCal",
+    component: AnimeCalView,
+  },
+  {
+    path: "/projects/ProcessingSketches",
+    name: "ProcessingSketches",
+    component: ProcessingSketchesView,
+  },
+  {
+    path: "/projects/ArtGallery",
+    name: "Art Gallery",
+    component: ArtGalleryView,
+  },
+  {
+    path: "/projects/Clocks",
+    name: "Clocks",
+    component: ClocksView,
+  },
+  {
+    path: "/projects/Hotell",
+    name: "Hotell",
+    component: HotellView,
   },
 ];
 

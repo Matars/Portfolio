@@ -26,35 +26,4 @@ import FooterComp from "../components/FooterComp.vue";
   </main>
 </template>
 
-<style scoped>
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  min-height: 100vh;
-  max-width: 52rem;
-}
-
-.parent {
-  height: 100vh;
-}
-.wrapper {
-  max-width: 52rem;
-  margin: 0 auto;
-}
-
-.wrapper > * {
-  margin-top: 8em;
-}
-</style>
+<style scoped></style>

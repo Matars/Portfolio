@@ -1,40 +1,84 @@
 :root {
-    --bg-main: #25283D;
-    --bg-second: #1c1f34;
-    --text-main: #f3f3f3;
-    --border-color: #3b3d4a;
+  --bg-main: #25283d;
+  --bg-second: #1c1f34;
+  --text-main: #f3f3f3;
+  --border-color: #3b3d4a;
 }
 
-
-html{
-    background-color: var(--bg-main);
-    color: var(--text-main);
-    font-family: 'Times New Roman', Times, serif;
+html {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: "Times New Roman", Times, serif;
 }
 
-header{
-    background-color: var(--bg-second);
+header {
+  background-color: var(--bg-second);
 }
 
-footer{
-    background-color: var(--bg-second);
+footer {
+  background-color: var(--bg-second);
 }
 
-template{
-    background-color: var(--bg-main);
-    color: var(--text-main);
+template {
+  background-color: var(--bg-main);
+  color: var(--text-main);
 }
 
-a{
-    color: var(--text-main);
+a {
+  color: var(--text-main);
 }
 
 .button {
-    padding: 1em;
-    margin: 0.6em;
-    border-radius: 5px;
-    border: 1px solid var(--border-color);
-    text-decoration: none;
-    background-color: var(--bg-main);
-    color: var(--text-main);
-  }
+  padding: 1em;
+  margin: 0.6em;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  text-decoration: none;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  min-height: 100vh;
+  max-width: 52rem;
+}
+
+.parent {
+  height: 100vh;
+}
+.wrapper {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+.wrapper > * {
+  margin-top: 8em;
+}
+
+video {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+}
