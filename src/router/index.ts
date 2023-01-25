@@ -5,7 +5,7 @@ import AnimeCalView from "../views/AnimeCalView.vue";
 import ProcessingSketchesView from "../views/ProcessingSketchesView.vue";
 import ClocksView from "../views/ClocksView.vue";
 import HotellView from "../views/HotellView.vue";
-import ArtGalleryView from "../views/ArtGalleryView.vue";
+import ArtGalleryView from "..ArtGalleryView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
