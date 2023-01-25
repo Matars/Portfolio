@@ -3,9 +3,9 @@ import HomeView from "../views/HomeView.vue";
 import EducationView from "../views/EducationView.vue";
 import AnimeCalView from "../views/AnimeCalView.vue";
 import ProcessingSketchesView from "../views/ProcessingSketchesView.vue";
-import ArtGalleryView from "../views/ArtGalleryView.vue";
 import ClocksView from "../views/ClocksView.vue";
 import HotellView from "../views/HotellView.vue";
+import ArtGalleryView from "../views/ArtGalleryView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {

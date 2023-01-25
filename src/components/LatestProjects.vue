@@ -46,18 +46,6 @@ export default {
           description: "Vue.js + TypeScript",
           path: "projects/Portfolio",
         },
-        // {
-        //   id: 6,
-        //   name: "E-Commerce",
-        //   description: "A short description of the project",
-        //   path: "projects/ECommerce",
-        // },
-        // {
-        //   id: 6,
-        //   name: "URL Shortener",
-        //   description: "A short description of the project",
-        //   path: "projects/URLShortener",
-        // },
         {
           id: 6,
           name: "Clocks",
