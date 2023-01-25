@@ -28,11 +28,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "ProcessingSketches",
     component: ProcessingSketchesView,
   },
-  //   {
-  //     path: "/projects/Gallery",
-  //     name: "Gallery",
-  //     component: GalleryView,
-  //   },
+  {
+    path: "/projects/Gallery",
+    name: "Gallery",
+    component: GalleryView,
+  },
   {
     path: "/projects/Clocks",
     name: "Clocks",
