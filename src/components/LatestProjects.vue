@@ -22,12 +22,12 @@ export default {
           description: "School project for Software development Course",
           path: "projects/Hotell",
         },
-        // {
-        //   id: 2,
-        //   name: "Art Gallery",
-        //   description: "School project for Database Course",
-        //   path: "projects/Gallery",
-        // },
+        {
+          id: 2,
+          name: "Art Gallery",
+          description: "School project for Database Course",
+          path: "projects/Gallery",
+        },
         {
           id: 3,
           name: "Processnig Sketches",
