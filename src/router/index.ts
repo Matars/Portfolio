@@ -5,7 +5,7 @@ import AnimeCalView from "../views/AnimeCalView.vue";
 import ProcessingSketchesView from "../views/ProcessingSketchesView.vue";
 import ClocksView from "../views/ClocksView.vue";
 import HotellView from "../views/HotellView.vue";
-import ArtGalleryView from "..ArtGalleryView.vue";
+// import GalleryView from "../views/GalleryView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -28,11 +28,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "ProcessingSketches",
     component: ProcessingSketchesView,
   },
-  {
-    path: "/projects/ArtGallery",
-    name: "ArtGallery",
-    component: ArtGalleryView,
-  },
+  //   {
+  //     path: "/projects/Gallery",
+  //     name: "Gallery",
+  //     component: GalleryView,
+  //   },
   {
     path: "/projects/Clocks",
     name: "Clocks",
