@@ -6,10 +6,12 @@
       </span>
       <ul>
         <li>
-          <a href="/projects" class="no-highlight">Work</a>
+          <router-link to="/" class="no-highlight">Home</router-link>
         </li>
         <li>
-          <a href="/contact" class="no-highlight">Contact</a>
+          <router-link to="/Education" class="no-highlight"
+            >Education</router-link
+          >
         </li>
       </ul>
     </nav>
@@ -38,6 +40,7 @@ header {
 nav {
   display: flex;
 }
+
 nav > ul {
   display: flex;
   list-style: none;

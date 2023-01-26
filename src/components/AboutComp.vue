@@ -1,7 +1,7 @@
 <template>
   <div class="grid-container">
     <div class="about-me-col">
-      <h3>About Me</h3>
+      <h2>About Me</h2>
       <p>
         Hey there, my name is Khaled Matar, I am 20 years old and currently a
         second-year student studying Software Engineering. <br /><br />My main
@@ -12,7 +12,7 @@
       </p>
     </div>
     <div class="tech-i-use-col">
-      <h3>Tech I Use</h3>
+      <h2>Tech I Use</h2>
       <div class="tech-items-container">
         <div class="tech-item javascript">
           <img src="../assets/js.png" alt="JavaScript logo" class="tech-logo" />

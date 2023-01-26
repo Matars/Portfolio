@@ -10,7 +10,7 @@ import InstructionsComp from "../components/InstructionsComp.vue";
       <HeaderComp />
     </div>
     <div class="wrapper">
-      <h1>My College Courses</h1>
+      <h1>Software Engineering - Civilingenjör Mjukvaruteknik</h1>
       <InstructionsComp />
       <div class="year-container">
         <div v-for="year in years" :key="year">

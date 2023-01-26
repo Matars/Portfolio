@@ -6,9 +6,10 @@
         <div class="card-text-content">
           <p class="card-name">
             Hey, I'm <span style="font-weight: bold">Khaled Matar</span>
+            <br />
           </p>
           <p class="card-description">
-            I'm a Software Engineer Student based in 🇸🇪 Sweden.
+            I'm a 20 year old Software Engineer Student based in 🇸🇪 Sweden.
           </p>
           <div class="buttons">
             <a href="https://twitter.com/1Matar02" class="button twitter-button"
@@ -16,9 +17,10 @@
             >
             <a href="https://github.com/Matars" class="button github-button"
               >GitHub</a
-            ><a class="button education-button">
-              <router-link to="/Education">Education</router-link>
-            </a>
+            >
+            <router-link to="/Education" class="button education-button"
+              >Education</router-link
+            >
           </div>
         </div>
       </div>
