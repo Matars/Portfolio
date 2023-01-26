@@ -18,20 +18,20 @@ import InstructionsComp from "../components/InstructionsComp.vue";
           <div class="courses-container">
             <span v-for="course in courses" :key="course.name">
               <div class="course-name">
-                <p v-if="course.year === year">
-                  <span v-if="course.department === 'Mathematics'" class="math">
-                    {{ course.name }}
-                  </span>
-                  <span v-if="course.department === 'Physics'" class="physics">
-                    {{ course.name }}
-                  </span>
-                  <span
+                <ul v-if="course.year === year">
+                  <li v-if="course.department === 'Mathematics'" class="math">
+                    <span class="name"> {{ course.name }}</span>
+                  </li>
+                  <li v-if="course.department === 'Physics'" class="physics">
+                    <span class="name"> {{ course.name }}</span>
+                  </li>
+                  <li
                     v-if="course.department === 'Sofware Engineering'"
                     class="software"
                   >
-                    {{ course.name }}
-                  </span>
-                </p>
+                    <span class="name"> {{ course.name }}</span>
+                  </li>
+                </ul>
               </div>
             </span>
           </div>
@@ -43,16 +43,19 @@ import InstructionsComp from "../components/InstructionsComp.vue";
 </template>
 
 <style scoped>
+.name {
+  color: var(--text-main);
+}
 .physics {
-  border-bottom: 1px solid #0800ff;
+  color: #0800ff;
 }
 
 .software {
-  border-bottom: 1px solid #00ff00;
+  color: #00ff00;
 }
 
 .math {
-  border-bottom: 1px solid #ff7700;
+  color: #ff7700;
 }
 
 .year-container {

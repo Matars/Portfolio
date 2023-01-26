@@ -1,8 +1,10 @@
 <template>
   <div class="instructions">
-    <span class="physics">Physics</span>
-    <span class="math">Mathematics</span>
-    <span class="software">Software Engineering</span>
+    <ul>
+      <li class="physics"><span class="name">Physics</span></li>
+      <li class="math"><span class="name">Mathematics</span></li>
+      <li class="software"><span class="name">Software Engineering</span></li>
+    </ul>
   </div>
 </template>
 
@@ -11,7 +13,11 @@ export default {};
 </script>
 
 <style scoped>
-.instructions {
+.name {
+  color: var(--text-main);
+}
+
+ul {
   display: flex;
   justify-content: space-evenly;
   margin: 1rem;
@@ -22,14 +28,14 @@ export default {};
   border: 1px solid var(--border-color);
 }
 .physics {
-  border-bottom: 1px solid #0800ff;
+  color: #0800ff;
 }
 
 .software {
-  border-bottom: 1px solid #00ff00;
+  color: #00ff00;
 }
 
 .math {
-  border-bottom: 1px solid #ff7700;
+  color: #ff7700;
 }
 </style>
