@@ -4,6 +4,7 @@
       <li class="physics"><span class="name">Physics</span></li>
       <li class="math"><span class="name">Mathematics</span></li>
       <li class="software"><span class="name">Software Engineering</span></li>
+      <li><span class="name">Other</span></li>
     </ul>
   </div>
 </template>

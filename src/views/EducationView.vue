@@ -22,13 +22,19 @@ import InstructionsComp from "../components/InstructionsComp.vue";
                   <li v-if="course.department === 'Mathematics'" class="math">
                     <span class="name"> {{ course.name }}</span>
                   </li>
-                  <li v-if="course.department === 'Physics'" class="physics">
+                  <li
+                    v-else-if="course.department === 'Physics'"
+                    class="physics"
+                  >
                     <span class="name"> {{ course.name }}</span>
                   </li>
                   <li
-                    v-if="course.department === 'Sofware Engineering'"
+                    v-else-if="course.department === 'Sofware Engineering'"
                     class="software"
                   >
+                    <span class="name"> {{ course.name }}</span>
+                  </li>
+                  <li v-else>
                     <span class="name"> {{ course.name }}</span>
                   </li>
                 </ul>
@@ -79,47 +85,61 @@ export default {
           name: "Linear Algebra",
           department: "Mathematics",
           year: 2021,
+          status: "passed",
         },
         {
           name: "Introduction to Programming (python)",
           department: "Sofware Engineering",
           year: 2021,
+          status: "passed",
         },
         {
           name: "Diskrete Mathematics",
           department: "Mathematics",
           year: 2021,
+          status: "passed",
         },
         {
           name: "Introduction to Project (IoT Project)",
           department: "Sofware Engineering",
           year: 2021,
+          status: "passed",
         },
         {
           name: "Calculus I + II",
           department: "Mathematics",
           year: 2022,
+          status: "passed",
         },
         {
           name: "Database and Datamodelling",
           department: "Sofware Engineering",
           year: 2022,
+          status: "passed",
         },
         {
           name: "Probability and Statistics",
           department: "Mathematics",
           year: 2022,
+          status: "passed",
         },
-        { name: "Mechanical Physics", department: "Physics", year: 2022 },
+        {
+          name: "Mechanical Physics",
+          department: "Physics",
+          year: 2022,
+          status: "passed",
+        },
         {
           name: "Object Oriented Programing",
           department: "Sofware Engineering",
           year: 2022,
+          status: "passed",
         },
         {
           name: "Electricity and magnetism",
           department: "Physics",
           year: 2022,
+          status: "passed",
         },
         { name: "Technical Communication", department: "", year: 2022 },
         { name: "Algorithms", department: "Sofware Engineering", year: 2022 },

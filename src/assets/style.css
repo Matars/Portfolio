@@ -8,7 +8,7 @@
 html {
   background-color: var(--bg-main);
   color: var(--text-main);
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Monospace", sans-serif;
 }
 
 header {
