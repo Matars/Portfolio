@@ -11,14 +11,10 @@
             I'm a Software Engineer Student based in 🇸🇪 Sweden.
           </p>
           <div class="buttons">
-            <a
-              href="https://twitter.com/matar_khaled"
-              class="button twitter-button"
+            <a href="https://twitter.com/1Matar02" class="button twitter-button"
               >Twitter</a
             >
-            <a
-              href="https://github.com/matarkhaled"
-              class="button github-button"
+            <a href="https://github.com/Matars" class="button github-button"
               >GitHub</a
             ><a class="button education-button">
               <router-link to="/Education">Education</router-link>
