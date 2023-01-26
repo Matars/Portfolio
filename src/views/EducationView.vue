@@ -95,19 +95,19 @@ export default {
         {
           name: "Calculus I + II",
           department: "Mathematics",
-          year: 2021,
+          year: 2022,
         },
         {
           name: "Database and Datamodelling",
           department: "Sofware Engineering",
-          year: 2021,
+          year: 2022,
         },
         {
           name: "Probability and Statistics",
           department: "Mathematics",
-          year: 2021,
+          year: 2022,
         },
-        { name: "Mechanical Physics", department: "Physics", year: 2021 },
+        { name: "Mechanical Physics", department: "Physics", year: 2022 },
         {
           name: "Object Oriented Programing",
           department: "Sofware Engineering",
