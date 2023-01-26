@@ -18,10 +18,11 @@ export default {
       projects: [
         {
           id: 1,
-          name: "Hotell Software (Unfinished)",
-          description: "School project for Software development Course",
-          path: "projects/Hotell",
+          name: "Processnig Sketches",
+          description: "Different processing sketches",
+          path: "projects/ProcessingSketches",
         },
+
         {
           id: 2,
           name: "Art Gallery",
@@ -30,9 +31,9 @@ export default {
         },
         {
           id: 3,
-          name: "Processnig Sketches",
-          description: "Different processing sketches",
-          path: "projects/ProcessingSketches",
+          name: "Hotell Software (Unfinished)",
+          description: "School project for Software development Course",
+          path: "projects/Hotell",
         },
         {
           id: 4,
@@ -40,12 +41,12 @@ export default {
           description: "A chrome extension",
           path: "projects/AnimeCal",
         },
-        {
-          id: 5,
-          name: "Portfolio (this site)",
-          description: "Vue.js + TypeScript",
-          path: "projects/Portfolio",
-        },
+        // {
+        //   id: 5,
+        //   name: "Portfolio (this site)",
+        //   description: "Vue.js + TypeScript",
+        //   path: "projects/Portfolio",
+        // },
         {
           id: 6,
           name: "Clocks",
