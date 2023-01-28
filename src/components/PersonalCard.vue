@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-box">
       <div class="card-content">
-        <img class="card-icon" src="../assets/icon.png" alt="Card Icon" />
+        <img class="card-icon" src="../assets/me.jpeg" alt="Card Icon" />
         <div class="card-text-content">
           <p class="card-name">
             Hey, I'm <span style="font-weight: bold">Khaled Matar</span>
@@ -50,8 +50,8 @@ img {
 }
 
 .card-icon {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 15px;
