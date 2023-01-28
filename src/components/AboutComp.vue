@@ -2,14 +2,15 @@
   <div class="grid-container">
     <div class="about-me-col">
       <h2>About Me</h2>
-      <p>
-        Hey there, my name is Khaled Matar, I am 20 years old and currently a
-        second-year student studying Software Engineering. <br /><br />My main
-        expertise lies in web development and Python programming, with a strong
-        focus on problem-solving skills. <br /><br />In my free time, I enjoy
-        going to the gym, learning about cryptocurrency, delving into creative
-        coding and AI projects. Nice to meet you!
-      </p>
+      <ul>
+        <li>20 years old</li>
+        <li>Student</li>
+        <li>I solve problems</li>
+        <li>
+          Free time - Working out, watch <span class="onepice">One Piece</span>,
+          chilling with friends
+        </li>
+      </ul>
     </div>
     <div class="tech-i-use-col">
       <h2>Tech I Use</h2>
@@ -50,14 +51,6 @@
           />
           Flutter
         </div>
-        <div class="tech-item chatgpt">
-          <img
-            src="../assets/chatgpt.jpeg"
-            alt="ChatGPT logo"
-            class="tech-logo"
-          />
-          ChatGPT
-        </div>
         <div class="tech-item typescript">
           <img
             src="../assets/typescript.jpeg"
@@ -72,14 +65,43 @@
 </template>
 
 <style>
+.about-me-col {
+  justify-content: space-evenly;
+  margin: 1rem;
+  background-color: var(--bg-second);
+  width: 75%;
+  border-radius: 10px;
+  padding: 2em;
+  border: 1px solid var(--border-color);
+}
+
+.onepiece {
+  font-style: italic;
+}
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 }
 
-.about-me-col {
-  padding: 1rem;
+.about-me-col li {
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.tech-i-use-col {
+  justify-content: space-evenly;
+  margin: 1rem;
+  background-color: var(--bg-second);
+  width: 75%;
+  border-radius: 10px;
+  padding: 2em;
+  border: 1px solid var(--border-color);
+}
+
+.onepiece {
+  color: blue;
+  font-style: italic;
 }
 
 .tech-items-container {
