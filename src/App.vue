@@ -41,6 +41,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   opacity: 0.9;
+  z-index: 1;
 }
 
 nav > ul {
@@ -52,17 +53,7 @@ nav > ul {
 nav > ul > li {
   margin-left: 1rem;
 }
-.nav-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--bg-second);
-  filter: blur(5px);
-  z-index: -1;
-}
+
 @media only screen and (max-width: 600px) {
   nav {
     width: 80vw;

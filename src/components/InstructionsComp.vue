@@ -34,4 +34,12 @@ ul {
 .math {
   color: #ff7700;
 }
+
+@media screen and (max-width: 600px) {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
 </style>
