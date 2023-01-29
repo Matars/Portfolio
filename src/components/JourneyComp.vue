@@ -45,8 +45,6 @@ export default {
           description:
             "I learnt more about C++ and web development - graduated from engineering high school.",
           dotColor: "#323b4e",
-          link: "https://yudax.notion.site/Archive-2015-2018-d3e6027d46f14e94b73309407c667299",
-          linkText: "Fun projects",
         },
         {
           id: 3,

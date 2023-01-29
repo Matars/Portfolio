@@ -3,15 +3,26 @@
     <div class="about-me-col">
       <h2>About Me</h2>
       <ul>
-        <li>20 years old</li>
-        <li>Student</li>
-        <li>I solve problems</li>
+        <li>🎂 20 y/o</li>
+        <li>🎯 Results-driven software dev</li>
+        <li>💻 Skilled in JS, Python, Java</li>
         <li>
-          Free time - Working out, watch <span class="onepice">One Piece</span>,
-          chilling with friends
+          📊 Strong understanding of data structures, algorithms, and software
+          design
+        </li>
+        <li>🔧 Proficient in Agile methodologies and team collaboration</li>
+        <li>🚀 Passionate about staying current with latest tech trends</li>
+        <li>
+          💪 Strong problem-solving skills and ability to think critically and
+          creatively
+        </li>
+        <li>
+          🕒 Enjoy working out, watching <span class="onepice">One Piece</span>,
+          and spending time with friends and family
         </li>
       </ul>
     </div>
+
     <div class="tech-i-use-col">
       <h2>Tech I Use</h2>
       <div class="tech-items-container">
@@ -124,6 +135,11 @@
   width: 15px;
   height: 15px;
   margin-right: 0.5em;
+}
+
+/* remove dot from about me list */
+.about-me-col ul {
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 600px) {
