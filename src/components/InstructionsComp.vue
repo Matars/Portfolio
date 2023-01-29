@@ -9,10 +9,6 @@
   </div>
 </template>
 
-<script lang="ts">
-export default {};
-</script>
-
 <style scoped>
 .name {
   color: var(--text-main);
@@ -21,7 +17,6 @@ export default {};
 ul {
   display: flex;
   justify-content: space-evenly;
-  margin: 1rem;
   background-color: var(--bg-second);
   width: 75%;
   border-radius: 10px;

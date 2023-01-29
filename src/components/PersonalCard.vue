@@ -77,4 +77,11 @@ img {
   border: 1px solid var(--border-color);
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>

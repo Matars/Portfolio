@@ -6,9 +6,6 @@ import HeaderComp from "../components/HeaderComp.vue";
 <template>
   <main>
     <div class="parent">
-      <div class="header">
-        <HeaderComp />
-      </div>
       <div class="wrapper">
         <div class="text">
           <h1>AnimeCal</h1>

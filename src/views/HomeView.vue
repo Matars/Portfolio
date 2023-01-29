@@ -11,9 +11,6 @@ import FooterComp from "../components/FooterComp.vue";
 <template>
   <main>
     <div class="parent">
-      <div class="header">
-        <HeaderComp />
-      </div>
       <div class="wrapper">
         <PersonalCard />
         <LatestProjects />

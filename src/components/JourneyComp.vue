@@ -147,7 +147,7 @@ export default {
   width: 2px;
   height: 100%;
   background-color: #323b4e;
-  left: -2.5rem;
+  left: -1.1rem;
   top: 0;
 }
 </style>

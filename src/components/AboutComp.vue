@@ -86,7 +86,7 @@
 
 .about-me-col li {
   padding: 0.5rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .tech-i-use-col {
@@ -124,5 +124,12 @@
   width: 15px;
   height: 15px;
   margin-right: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>

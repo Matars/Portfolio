@@ -5,9 +5,6 @@ import HeaderComp from "../components/HeaderComp.vue";
 
 <template>
   <div class="parent">
-    <div class="header">
-      <HeaderComp />
-    </div>
     <div class="wrapper">
       <div class="clocks-view">
         <h1>Clocks</h1>

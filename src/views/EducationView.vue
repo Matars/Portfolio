@@ -6,11 +6,8 @@ import InstructionsComp from "../components/InstructionsComp.vue";
 
 <template>
   <div class="parent">
-    <div class="header">
-      <HeaderComp />
-    </div>
     <div class="wrapper">
-      <h1>Software Engineering - Civilingenjör Mjukvaruteknik</h1>
+      <h1>Civilingenjör Mjukvaruteknik - 300HP</h1>
       <InstructionsComp />
       <div class="year-container">
         <div v-for="year in years" :key="year">

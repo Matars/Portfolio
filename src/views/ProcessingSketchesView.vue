@@ -6,9 +6,6 @@ import HeaderComp from "../components/HeaderComp.vue";
 <template>
   <main>
     <div class="parent">
-      <div class="header">
-        <HeaderComp />
-      </div>
       <div class="wrapper">
         <span>
           <h1>Processing Sketches</h1>

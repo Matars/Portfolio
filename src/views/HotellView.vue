@@ -5,9 +5,6 @@ import HeaderComp from "../components/HeaderComp.vue";
 
 <template>
   <div class="parent">
-    <div class="header">
-      <HeaderComp />
-    </div>
     <div class="wrapper">
       <div class="hotell-view">
         <h1>Hotell Software</h1>

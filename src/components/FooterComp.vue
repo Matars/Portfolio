@@ -24,6 +24,7 @@ export default {
   height: 3rem;
   border-top: 1px solid var(--border-color);
   background-color: var(--bg-main);
+  margin-top: 5em;
 }
 
 footer {

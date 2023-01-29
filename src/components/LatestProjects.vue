@@ -85,4 +85,11 @@ export default {
 .project-card:hover {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
+@media only screen and (max-width: 600px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 </style>
