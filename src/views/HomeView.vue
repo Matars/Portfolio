@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import PersonalCard from "../components/PersonalCard.vue";
 import LatestProjects from "../components/LatestProjects.vue";
-import HeaderComp from "../components/HeaderComp.vue";
 import JourneyComp from "../components/JourneyComp.vue";
 import AboutComp from "../components/AboutComp.vue";
 import ContactComp from "../components/ContactComp.vue";

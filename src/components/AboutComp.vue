@@ -70,6 +70,14 @@
           />
           TypeScript
         </div>
+        <div class="tech-item git">
+          <img src="../assets/git.png" alt="Git logo" class="tech-logo" />
+          Git
+        </div>
+        <div class="tech-item linux">
+          <img src="../assets/linux.png" alt="Linux logo" class="tech-logo" />
+          Linux
+        </div>
       </div>
     </div>
   </div>

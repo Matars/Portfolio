@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import FooterComp from "../components/FooterComp.vue";
-import HeaderComp from "../components/HeaderComp.vue";
 import InstructionsComp from "../components/InstructionsComp.vue";
 </script>
 

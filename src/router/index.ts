@@ -6,6 +6,7 @@ import ProcessingSketchesView from "../views/ProcessingSketchesView.vue";
 import ClocksView from "../views/ClocksView.vue";
 import HotellView from "../views/HotellView.vue";
 import GalleryView from "../views/GalleryView.vue";
+import CvViewVue from "@/views/CvView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -42,6 +43,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/projects/Hotell",
     name: "Hotell",
     component: HotellView,
+  },
+  {
+    path: "/CV",
+    name: "CV",
+    component: CvViewVue,
   },
 ];
 

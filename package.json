@@ -8,8 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "jspdf": "^2.5.1",
     "tslib": "^2.4.1",
     "vue": "^3.2.13",
+    "vue-html2pdf": "^1.8.0",
     "vue-p5": "^0.8.4",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^4.0.3"

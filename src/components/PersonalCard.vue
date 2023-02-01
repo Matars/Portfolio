@@ -12,12 +12,10 @@
             I'm a 20 year old Software Engineer Student based in 🇸🇪 Sweden.
           </p>
           <div class="buttons">
-            <a href="https://twitter.com/1Matar02" class="button twitter-button"
-              >Twitter</a
-            >
             <a href="https://github.com/Matars" class="button github-button"
               >GitHub</a
             >
+            <router-link to="/CV" class="button cv-button">CV</router-link>
             <router-link to="/Education" class="button education-button"
               >Education</router-link
             >
