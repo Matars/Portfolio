@@ -3,7 +3,7 @@
     <div class="about-me-col">
       <h2>About Me</h2>
       <ul>
-        <li>🎂 20 y/o</li>
+        <li>🎂 20 years old</li>
         <li>🎯 Results-driven software dev</li>
         <li>💻 Skilled in JS, Python, Java</li>
         <li>
@@ -77,6 +77,10 @@
         <div class="tech-item linux">
           <img src="../assets/linux.png" alt="Linux logo" class="tech-logo" />
           Linux
+        </div>
+        <div class="tech-item Node">
+          <img src="../assets/node.jpg" alt="Node logo" class="tech-logo" />
+          Node
         </div>
       </div>
     </div>

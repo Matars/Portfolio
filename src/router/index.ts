@@ -7,6 +7,7 @@ import ClocksView from "../views/ClocksView.vue";
 import HotellView from "../views/HotellView.vue";
 import GalleryView from "../views/GalleryView.vue";
 import CvViewVue from "@/views/CvView.vue";
+import ECommerceViewVue from "@/views/ECommerceView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -48,6 +49,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/CV",
     name: "CV",
     component: CvViewVue,
+  },
+  {
+    path: "/projects/ECommerce",
+    name: "ECommerce",
+    component: ECommerceViewVue,
   },
 ];
 

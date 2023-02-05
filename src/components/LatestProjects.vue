@@ -41,12 +41,12 @@ export default {
           description: "A chrome extension",
           path: "projects/AnimeCal",
         },
-        // {
-        //   id: 5,
-        //   name: "Portfolio (this site)",
-        //   description: "Vue.js + TypeScript",
-        //   path: "projects/Portfolio",
-        // },
+        {
+          id: 5,
+          name: "E-Commerce",
+          description: "Around 4000kr in sales",
+          path: "projects/ECommerce",
+        },
         {
           id: 6,
           name: "Clocks",
