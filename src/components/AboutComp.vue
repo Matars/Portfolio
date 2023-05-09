@@ -2,7 +2,7 @@
   <div class="grid-container">
     <div class="about-me-col">
       <h2>About Me</h2>
-      <ul>
+      <ul class="ulgroup">
         <li>🎂 20 years old</li>
         <li>🎯 Results-driven software dev</li>
         <li>💻 Skilled in JS, Python, Java</li>
@@ -88,14 +88,14 @@
 </template>
 
 <style>
+.ulgroup {
+  padding: 0;
+}
+
 .about-me-col {
   justify-content: space-evenly;
   margin: 1rem;
-  background-color: var(--bg-second);
-  width: 75%;
-  border-radius: 10px;
-  padding: 2em;
-  border: 1px solid var(--border-color);
+  padding: 2.5em;
 }
 
 .onepiece {
@@ -115,11 +115,7 @@
 .tech-i-use-col {
   justify-content: space-evenly;
   margin: 1rem;
-  background-color: var(--bg-second);
-  width: 75%;
-  border-radius: 10px;
-  padding: 2em;
-  border: 1px solid var(--border-color);
+  padding: 2.5em;
 }
 
 .onepiece {

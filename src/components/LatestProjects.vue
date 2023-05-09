@@ -68,6 +68,7 @@ export default {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-left: 2.5em;
 }
 
 .project-card {
