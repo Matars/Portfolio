@@ -3,22 +3,15 @@
     <div class="about-me-col">
       <h2>About Me</h2>
       <ul class="ulgroup">
-        <li>🎂 20 years old</li>
-        <li>🎯 Results-driven software dev</li>
-        <li>💻 Skilled in JS, Python, Java</li>
+        <li>🎂 21 years old</li>
+        <li>🎯 Results-driven</li>
+        <li>💻 Skilled</li>
+        <li>🚀 Passionate about AI, crypto and the future</li>
+        <li>💪 Strong Math and Physics background</li>
         <li>
-          📊 Strong understanding of data structures, algorithms, and software
-          design
-        </li>
-        <li>🔧 Proficient in Agile methodologies and team collaboration</li>
-        <li>🚀 Passionate about staying current with latest tech trends</li>
-        <li>
-          💪 Strong problem-solving skills and ability to think critically and
-          creatively
-        </li>
-        <li>
-          🕒 Enjoy working out, watching <span class="onepice">One Piece</span>,
-          and spending time with friends and family
+          🕒 Enjoy working out, watching
+          <span id="onepice" style="color: orange">One Piece</span>, and
+          spending time with friends and family
         </li>
       </ul>
     </div>
@@ -81,6 +74,10 @@
         <div class="tech-item Node">
           <img src="../assets/node.jpg" alt="Node logo" class="tech-logo" />
           Node
+        </div>
+        <div class="tech-item ai">
+          <img src="../assets/chatgpt.jpeg" alt="Ai logo" class="tech-logo" />
+          Efficienty leverage AI
         </div>
       </div>
     </div>

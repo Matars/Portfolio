@@ -166,6 +166,18 @@ export default {
           department: "Sofware Engineering",
           year: 2023,
         },
+        // flutter app development
+        {
+          name: "Flutter App Development",
+          department: "Sofware Engineering",
+          year: 2023,
+        },
+        // // IoT Project
+        // {
+        //   name: "IoT Project",
+        //   department: "Sofware Engineering",
+        //   year: 2023,
+        // },
         // Multivariable Calculus
         {
           name: "Multivariable Calculus",
@@ -187,7 +199,7 @@ export default {
         // control technology
         {
           name: "Control Technology",
-          department: "Sofware Engineering",
+          department: "Physics",
           year: 2023,
         },
         // computer graphics
@@ -205,13 +217,13 @@ export default {
         // industrial economics
         {
           name: "Industrial Economics",
-          department: "Sofware Engineering",
+          department: "other",
           year: 2024,
         },
         // lititure review
         {
           name: "Lititure Review",
-          department: "Sofware Engineering",
+          department: "other",
           year: 2024,
         },
         // computer security
@@ -283,7 +295,7 @@ export default {
         // lean startup
         {
           name: "Lean Startup",
-          department: "Sofware Engineering",
+          department: "other",
           year: 2025,
         },
         // information visualization

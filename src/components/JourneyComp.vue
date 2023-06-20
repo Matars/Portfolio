@@ -43,7 +43,7 @@ export default {
           year: "2018 - 2021",
           title: "🏫 High school",
           description:
-            "I learnt more about C++ and web development - graduated from engineering high school.",
+            "I learnt more about C++ and web development - Graduated from engineering high school.",
           dotColor: "#323b4e",
         },
         {
@@ -51,7 +51,7 @@ export default {
           year: "2021 - Present",
           title: "🎓 College",
           description:
-            "I study Software Engineering at LNU and working as a TA on the side.",
+            "I study Software Engineering at Linnaeus University - Part-time developer working with Robotics and LLM/AI projects.",
           dotColor: "#323b4e",
           link: "",
           linkText: "",

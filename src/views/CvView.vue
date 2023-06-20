@@ -11,7 +11,9 @@
 
     <section class="summary">
       <h2>Summary</h2>
-      <p>{{ summary }}</p>
+      <div>
+        <p>{{ summary }}</p>
+      </div>
     </section>
 
     <section class="experience">
@@ -47,15 +49,17 @@
 
     <section class="skills">
       <h2>Tech I use</h2>
-      <ul>
-        <li v-for="(tech, index) in techstack" :key="index">{{ tech }}</li>
-      </ul>
+      <div>
+        <ul>
+          <li v-for="(tech, index) in techstack" :key="index">{{ tech }}</li>
+        </ul>
+      </div>
     </section>
     <section class="awards">
       <h2>Awards</h2>
       <div v-for="(award, index) in awards" :key="index">
         <ul>
-          <li>{{ award.title }}</li>
+          <h3>{{ award.title }}</h3>
           <p>{{ award.description }}</p>
         </ul>
       </div>
@@ -74,7 +78,7 @@ export default {
       phoneNumber: "0762979728",
       link: "https://matars.netlify.app/",
       summary:
-        "Results-oriented software developer with a strong technical background in JavaScript, Python, and Java. Adept at data structures, algorithms, and software design with experience in Agile methodologies and teamwork. A continuous learner with a passion for staying current with industry advancements and utilizing problem-solving skills to drive results. Committed to balancing a high-performance career with personal interests and relationships.",
+        "I am a 20 year old Software Engineer Student based in 🇸🇪 Sweden. I am currently studying Software Engineering at Linnaeus University. I am a part-time developer working with Robotics and LLM/AI projects.",
       experiences: [
         {
           position: "TA in IoT class",
@@ -90,6 +94,14 @@ export default {
           startDate: "2023-01-01",
           endDate: "2023-06-01",
           description: "Assisting students with their database assignments",
+        },
+        {
+          position: "Part-time developer",
+          company: "Linnéuniversitetet",
+          startDate: "2023-06-15",
+          endDate: "",
+          description:
+            "Working with Robotics and LLM/AI projects at Linnéuniversitetet",
         },
       ],
       educations: [
@@ -131,10 +143,11 @@ export default {
         "Linux",
         "flutter",
         "Typescript",
+        "AI/Copilot",
       ],
       awards: [
         {
-          title: "Gymnasium Teknik Stipendium",
+          title: "Gymnasium - Teknik Stipendium",
           description:
             "“For being engaged and interested in the field of programming”",
         },
@@ -171,12 +184,16 @@ section {
 }
 h2 {
   font-size: 24px;
-  margin-bottom: 20px;
 }
 h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin: 0;
 }
+
+div {
+  margin: 2em;
+}
+
 em {
   font-style: italic;
   font-size: 14px;
