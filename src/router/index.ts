@@ -8,6 +8,8 @@ import HotellView from "../views/HotellView.vue";
 import GalleryView from "../views/GalleryView.vue";
 import CvViewVue from "@/views/CvView.vue";
 import ECommerceViewVue from "@/views/ECommerceView.vue";
+import AIAcademiaViewVue from "@/views/AIAcademiaView.vue";
+import AIRoboticsViewVue from "@/views/AIRoboticsView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -55,11 +57,25 @@ const routes: Array<RouteRecordRaw> = [
     name: "ECommerce",
     component: ECommerceViewVue,
   },
+  {
+    path: "/projects/AIAcademia",
+    name: "AIAcademia",
+    component: AIAcademiaViewVue,
+  },
+  {
+    path: "/projects/AIRobotics",
+    name: "AIRobotics",
+    component: AIRoboticsViewVue,
+  },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+});
+
+router.afterEach(() => {
+  window.scrollTo(0, 0);
 });
 
 export default router;

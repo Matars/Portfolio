@@ -17,6 +17,18 @@ export default {
     return {
       projects: [
         {
+          id: 8,
+          name: "AI and Robotics",
+          description: "Chat across ages - anyone, anywhere.",
+          path: "projects/AIRobotics",
+        },
+        {
+          id: 7,
+          name: "AI Academia",
+          description: "Exploring how AI can be used in Academia",
+          path: "projects/AIAcademia",
+        },
+        {
           id: 1,
           name: "Processnig Sketches",
           description: "Different processing sketches",
@@ -63,6 +75,7 @@ export default {
 <style scoped>
 .latestproject-wrapper {
   margin-top: 5em;
+  text-align: center;
 }
 
 .project-grid {

@@ -22,4 +22,8 @@ import FooterComp from "../components/FooterComp.vue";
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+template {
+  background-color: red;
+}
+</style>

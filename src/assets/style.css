@@ -6,9 +6,11 @@
 }
 
 html {
-  background-color: var(--bg-main);
   color: var(--text-main);
   font-family: "Monospace", sans-serif;
+  background-image: url("../assets/texture.svg");
+  background-color: var(--bg-main);
+  background-repeat: repeat;
 }
 
 header {
@@ -82,4 +84,3 @@ img {
   display: block;
   margin: 0 auto;
 }
-

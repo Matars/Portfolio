@@ -5,7 +5,7 @@
       <ul class="ulgroup">
         <li>🎂 21 years old</li>
         <li>🎯 Results-driven</li>
-        <li>💻 Skilled</li>
+        <li>💻 Skilled fast and reliable</li>
         <li>🚀 Passionate about AI, crypto and the future</li>
         <li>💪 Strong Math and Physics background</li>
         <li>

@@ -9,7 +9,7 @@
             <br />
           </p>
           <p class="card-description">
-            I'm a 20 year old Software Engineer Student based in 🇸🇪 Sweden.
+            I'm a 21 year old Software Engineer Student based in 🇸🇪 Sweden.
           </p>
           <div class="buttons">
             <a href="https://github.com/Matars" class="button github-button"
