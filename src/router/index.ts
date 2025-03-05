@@ -10,6 +10,7 @@ import CvViewVue from "@/views/CvView.vue";
 import ECommerceViewVue from "@/views/ECommerceView.vue";
 import AIAcademiaViewVue from "@/views/AIAcademiaView.vue";
 import AIRoboticsViewVue from "@/views/AIRoboticsView.vue";
+import HPCViewVue from "@/views/HPCView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -66,6 +67,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/projects/AIRobotics",
     name: "AIRobotics",
     component: AIRoboticsViewVue,
+  },
+  {
+    path: "/projects/HPC",
+    name: "HPC",
+    component: HPCViewVue,
   },
 ];
 

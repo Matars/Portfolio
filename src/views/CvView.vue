@@ -126,10 +126,6 @@ export default {
           language: "Arabic",
           level: "4/5",
         },
-        {
-          language: "Greek",
-          level: "3/5",
-        },
       ],
       techstack: [
         "JavaScript",

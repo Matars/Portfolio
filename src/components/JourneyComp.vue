@@ -15,9 +15,6 @@
         <br />
         <span class="journey-item-title">{{ journey.title }}</span>
         <p class="journey-item-description">{{ journey.description }}</p>
-        <a :href="journey.link" class="journey-item-link">{{
-          journey.linkText
-        }}</a>
       </li>
     </ul>
   </section>
@@ -35,26 +32,29 @@ export default {
           description:
             "I self-taught myself my first programming language, Python.",
           dotColor: "#323b4e",
-          link: "",
-          linkText: "",
         },
         {
           id: 2,
           year: "2018 - 2021",
           title: "🏫 High school",
           description:
-            "I learnt more about C++ and web development - Graduated from engineering high school.",
+            "I learned more about C++ and web development - Graduated from engineering high school.",
           dotColor: "#323b4e",
         },
         {
           id: 3,
           year: "2021 - Present",
           title: "🎓 College",
-          description:
-            "I study Software Engineering at Linnaeus University - Part-time developer working with Robotics and LLM/AI projects.",
+          description: "I study Software Engineering at Linnaeus University",
           dotColor: "#323b4e",
-          link: "",
-          linkText: "",
+        },
+        {
+          id: 3,
+          year: "2023 - Present",
+          title: "💼 Part time work (R&D)",
+          description:
+            "Part-time Research & Development with Robotics, LLMs and AI.",
+          dotColor: "#323b4e",
         },
       ],
     };

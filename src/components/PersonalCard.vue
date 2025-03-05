@@ -9,7 +9,8 @@
             <br />
           </p>
           <p class="card-description">
-            I'm a 21 year old Software Engineer Student based in 🇸🇪 Sweden.
+            I'm a {{ age }} year old Software Engineer Student based in 🇸🇪
+            Sweden.
           </p>
           <div class="buttons">
             <a href="https://github.com/Matars" class="button github-button"
@@ -19,12 +20,27 @@
             <router-link to="/Education" class="button education-button"
               >Education</router-link
             >
+            <a
+              href="https://www.linkedin.com/in/khaled-matar-b9a332298/"
+              class="button github-button"
+              >Linked In</a
+            >
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script lang="ts">
+export default {
+  data() {
+    return {
+      age: new Date().getFullYear() - 2002,
+    };
+  },
+};
+</script>
 
 <style scoped>
 img {

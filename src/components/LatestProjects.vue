@@ -17,6 +17,12 @@ export default {
     return {
       projects: [
         {
+          id: 9,
+          name: "HPC",
+          description: "GEMM, MPI, OpenMP, CUDA",
+          path: "projects/HPC",
+        },
+        {
           id: 8,
           name: "AI and Robotics",
           description: "Chat across ages - anyone, anywhere.",
@@ -43,7 +49,7 @@ export default {
         },
         {
           id: 3,
-          name: "Hotell Software (Unfinished)",
+          name: "Hotell Software",
           description: "School project for Software development Course",
           path: "projects/Hotell",
         },
@@ -61,7 +67,7 @@ export default {
         },
         {
           id: 6,
-          name: "Clocks",
+          name: "Clocks (made when I was 14)",
           description: "HTML/CSS/JS Clocks",
           path: "projects/Clocks",
         },
