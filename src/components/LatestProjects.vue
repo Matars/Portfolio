@@ -5,7 +5,15 @@
       <div v-for="project in projects" :key="project.id" class="project-card">
         <h3 class="project-card-name">{{ project.name }}</h3>
         <p class="project-card-description">{{ project.description }}</p>
-        <router-link :to="`${project.path}`">View Project</router-link>
+        <a
+          v-if="project.external"
+          :href="project.path"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project
+        </a>
+        <router-link v-else :to="project.path">View Project</router-link>
       </div>
     </div>
   </div>
@@ -20,7 +28,8 @@ export default {
           id: 9,
           name: "HPC",
           description: "GEMM, MPI, OpenMP, CUDA",
-          path: "projects/HPC",
+          path: "https://github.com/YousefMelhem/4DT906-Parallel-and-Distributed",
+          external: true,
         },
         {
           id: 8,
